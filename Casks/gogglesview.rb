@@ -1,6 +1,6 @@
 cask "gogglesview" do
-  version "0.6.1"
-  sha256 "ae94a0930df07ffef730ccc972e534d164c427fdf829bfdeb0eb2f0175c906d1"
+  version "0.6.2"
+  sha256 "09848c79b84eeb2f046d65bbf16861468aeee990920670e8c4b0131dbb1a0030"
 
   url "https://github.com/Kristian-Buriasco/gogglecast/releases/download/v#{version}/GogglesView-#{version}.dmg"
   name "GogglesView"
