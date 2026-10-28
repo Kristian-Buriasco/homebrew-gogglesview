@@ -1,6 +1,6 @@
 cask "gogglesview" do
-  version "0.12.0"
-  sha256 "5a8a5304ed85decbedb9ec7af2d0d1c2f3899471705dbc2bb538682553ed696a"
+  version "0.12.1"
+  sha256 "a001208012e0cc887cbddeeab5a2e36195135cf2fcbefde7a780364aa24c7e30"
 
   url "https://github.com/Kristian-Buriasco/gogglecast/releases/download/v#{version}/GogglesView-#{version}.dmg"
   name "GogglesView"
@@ -23,7 +23,6 @@ cask "gogglesview" do
   ]
 
   caveats <<~EOS
-    GogglesView is not notarized. On first launch, right-click the app and choose Open.
     It registers a helper in System Settings > General > Login Items & Extensions, which you need to approve once.
   EOS
 end
